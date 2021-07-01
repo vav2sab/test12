@@ -337,7 +337,7 @@ ul > li {
 }
 @font-face {
 	font-family: BoschOfficeSans;
-	src: url(../test12/fonts/BoschOfficeSans-Regular_V2_45.ttf);
+	src: url(../fonts/BoschOfficeSans-Regular_V2_45.ttf);
 }
 @media print {
 	* {
@@ -347,7 +347,7 @@ ul > li {
 		text-decoration: none;
 	}
 	.cnt {
-		height: 227mm;
+		height: 224mm;
 	}
 	.cpt {
 		height: 203.5mm;
@@ -356,6 +356,7 @@ ul > li {
 		border-left: none;
 		border-right: none;
 		border-top: none;
+		height: 8mm;
 	}
 	.ftn {
 		border-left: none;
@@ -363,7 +364,7 @@ ul > li {
 		border-top: none;
 	}
 	.ftr {
-		height: 9mm;
+		height: 12mm;
 		page-break-after: always;
 	}
 	.hdr {
