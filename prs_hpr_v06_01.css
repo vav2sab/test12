@@ -207,7 +207,9 @@
 	border: 0.5mm solid #eee;
 	display: flex;
 	font-size: 12px;
+	overflow: hidden;
 	padding: 2mm;
+	white-space: nowrap;
 }
 .ttl {
 	align-items: center;
@@ -273,6 +275,13 @@
 .xlx {
 	background: #e6e6e6;
 }
+.yyy {
+	padding: 2mm;
+}
+.zzz {
+	overflow: hidden;
+	white-space: nowrap;
+}
 caption {
 	font-size: 14px;
 	font-weight: bold;
@@ -337,7 +346,7 @@ ul > li {
 }
 @font-face {
 	font-family: BoschOfficeSans;
-	src: url(../test12/fonts/BoschOfficeSans-Regular_V2_45.ttf);
+	src: url(../fonts/BoschOfficeSans-Regular_V2_45.ttf);
 }
 @media print {
 	* {
