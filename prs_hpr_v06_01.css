@@ -346,7 +346,7 @@ ul > li {
 }
 @font-face {
 	font-family: BoschOfficeSans;
-	src: url(../fonts/BoschOfficeSans-Regular_V2_45.ttf);
+	src: url(../test12/fonts/BoschOfficeSans-Regular_V2_45.ttf);
 }
 @media print {
 	* {
