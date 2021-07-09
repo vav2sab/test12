@@ -207,8 +207,10 @@
 	border: 0.5mm solid #eee;
 	display: flex;
 	font-size: 12px;
-	overflow: hidden;
 	padding: 2mm;
+}
+.tcl:not([class*='r']) {
+	overflow: hidden;
 	white-space: nowrap;
 }
 .ttl {
